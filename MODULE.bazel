@@ -1,0 +1,6 @@
+module(
+	name = "algos",
+	version  = "0.0.0",
+)
+
+bazel_dep(name = "googletest", version="1.15.0")
